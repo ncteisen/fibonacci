@@ -50,10 +50,10 @@ int main()
 ////////////////////////////////////////////////////////////////////////////
 
 /* simple vanila recursive fib function */
-
+// n is the length of the fibonacci
 long fib1(long n) {
-    if (n <= 1) return 1;
-    return fib1(n - 1) + fib1(n - 2);
+    if (n <= 1) return 1;// base case
+    return fib1(n - 1) + fib1(n - 2);// recurcive call if the condition is not met yet
 }
 
 ////////////////////////////////////////////////////////////////////////////
